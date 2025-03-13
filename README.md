@@ -7,7 +7,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system using:
 LangChain for document processing and retrieval
 Qdrant as a vector database for efficient similarity search
 FastEmbed for embedding generation
-Ollama (Llama3.1) for LLM-based response generation
+Worked on Ollama (Llama3.1), qwen2.5:3b, Mistral 7b, Deepseek, for LLM-based response generation and tested which model is better at fetching the relevant results. (These models are installed and ran locally)
 Agno Agent for managing the retrieval and answer generation process
 It enables intelligent question-answering over web documents by:
 
@@ -35,6 +35,9 @@ How to Run
 
 Run the agent:
 python your_script_name.py
+
+RESULTS:
+Out of all the models tested, Llama 3.1 is better at answering the questions precise to the point and accurate.
 
 Technologies Used
 🟢 Python – Core implementation
